@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/config")
 public class AppConfigController {
 
-	@Value("config-info")
+	@Value("info.config-info")
 	String configInfo;
 
 	@RequestMapping("/info")
