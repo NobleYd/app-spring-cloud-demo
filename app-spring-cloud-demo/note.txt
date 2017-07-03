@@ -9,13 +9,6 @@ demo案例。
 143x: 服务C：给定俩个数字a和b，求a*b。俩实例端口分别为1431，1432。
 
 
-
-
-
-
-
-
-
-
-
-
+说明：
+	先启动eureka server。如何启动config-server。
+	剩下的次序无所谓，推荐：api-gateway，service-b，service-c，service-a。
